@@ -16,7 +16,7 @@ class TestTime(unittest.TestCase):
         test_object.reminder('file')
         self.assertTrue(test_object.time.filePlayed)
 
-    def test_time(self):
+    def test_time_1(self):
         #mock
         test_object = time.Checker()
         test_object.time.getTime = Mock(name = 'getTime')
